@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="editor.css">
   </head>
   <body>
+    <h1 class="edition-title">Joining a trade union</h1>
+    <div id="editor"></div>
     <script>
-    var myCodeMirror = CodeMirror(document.body, {
+    var myCodeMirror = CodeMirror(document.getElementById('editor'), {
       value: "# Title\n[link](http://www.paulrhayes.com)\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n## Subtitle\nMore content",
       mode:  "markdown",
       theme: 'gov',

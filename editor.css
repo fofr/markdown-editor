@@ -16,7 +16,7 @@
 }
 
 .cm-s-gov .cm-header-1 {
-  font-size: 32px;
+  font-size: 27px;
 }
 
 .cm-s-gov .cm-header-2 {
@@ -26,4 +26,16 @@
 .cm-s-gov .cm-link,
 .cm-s-gov .cm-string {
   color: #005ea5;
+}
+
+body {
+  font-family: "nta", "Helvetica Neue";
+  color: #0B0C0C;
+}
+
+.edition-title {
+  font-size: 48px;
+  line-height: 1.04167;
+  margin: 48px auto;
+  max-width: 567px;
 }
