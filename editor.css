@@ -1,0 +1,22 @@
+.CodeMirror {
+  font-family: "nta", "Helvetica Neue";
+  font-size: 16px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+}
+
+.cm-s-gov .cm-header-1 {
+  font-size: 32px;
+}
+
+.cm-s-gov .cm-header-2 {
+  font-size: 24px;
+}
+
+.cm-s-gov .cm-link,
+.cm-s-gov .cm-string {
+  color: #005ea5;
+}
