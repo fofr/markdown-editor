@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Markdown editor</title>
+
+    <script src="bower_components/codemirror/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="bower_components/codemirror/lib/codemirror.css">
+    <script src="bower_components/codemirror/mode/markdown/markdown.js"></script>
+    <script src="bower_components/codemirror/mode/xml/xml.js"></script>
+  </head>
+  <body>
+    <script>
+    var myCodeMirror = CodeMirror(document.body, {
+      value: "# title\n [link](http://www.paulrhayes.com)",
+      mode:  "markdown"
+    });
+    </script>
+  </body>
+</html>
