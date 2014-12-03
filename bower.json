@@ -1,0 +1,9 @@
+{
+  "name": "markdown-editor",
+  "version": "0.0.1",
+  "main": "path/to/main.css",
+  "private": true,
+  "dependencies": {
+    "codemirror": "~4.8.0"
+  }
+}
